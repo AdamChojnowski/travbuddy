@@ -4,7 +4,9 @@
     "sgPolish",
     "Spanish",
     "English",
-    "sgEnglish"
+    "sgEnglish",
+    "Hungarian",
+    "French"
   ],
   "gender": [
     "male",
@@ -13,7 +15,9 @@
   ],
   "destinations": {
     "Poland": ["Gdańsk", "Kraków", "Wrocław"],
-    "Spain": ["Barcelona", "Sevilla", "Malaga"]
+    "Spain": ["Barcelona", "Sevilla", "Malaga"],
+    "Netherlands": ["Amsterdam"],
+    "United Kingdom": ["London"]
   },
   "needs": [
     "generalAssistance",
@@ -27,6 +31,8 @@
     "photography",
     "sport",
     "zumba"
+    "belly dancing"
+    "literature"
   ],
   "age": {"26": "18-26", "40": "26-40", "100": "40+"}
 }
