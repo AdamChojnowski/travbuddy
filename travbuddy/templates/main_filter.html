@@ -64,14 +64,22 @@
             <div class="row">
                 <div class="col-xs-12">
                     <div class="form-group">
-                        <label for="need-help">Need help with</label>
+                        <label for="need-help">I need help with:
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Pictograms-nps-accessibility-sign_language_interpretation-2.svg/256px-Pictograms-nps-accessibility-sign_language_interpretation-2.svg.png"
+                                        data-toggle="tooltip"
+                                        data-placement="right"
+                                        data-html="true"
+                                        class="signTooltip"
+                                        title="<div><video preload='auto'
+                                        autoplay src='{{ url_for('static', filename='translate.ogv') }}'></video></div>"/>
+                        </label>
                         <input type="search" class="form-control" id="need-help">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-xs-offset-9 col-xs-3">
-                    <input class="btn btn-default" type="submit" value="Search">
+                    <input class="btn btn-default" type="submit" value="Find a travel buddy!">
                 </div>
             </div>
         </div>

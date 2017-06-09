@@ -9,6 +9,13 @@
     {% endblock %}
 </head>
 <body>
+    <nav class="displayMode">
+        <img alt='High Contrast' title='High Contrast' src="http://jliving.org.uk/wp-content/themes/jhca/images/high-contrast.png"
+        class="highContrastToggler"
+        />
+        <img alt='Toggle sign language' title='Toggle sign language' src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Pictograms-nps-accessibility-sign_language_interpretation-2.svg/256px-Pictograms-nps-accessibility-sign_language_interpretation-2.svg.png"
+            class="signLangToggler"/>
+    </nav>
     <div id="content">{% block content %}{% endblock %}</div>
     <footer>
         {% block footer %}
