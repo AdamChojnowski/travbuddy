@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Jason",
+    "surname": "Kovalsky",
+    "username": "jkovalsky",
+    "photo": true,
+    "baseLocation": "Gdańsk",
+    "languages": ["Polish", "Spanish"],
+    "contact": {
+      "mail": "jason@kovalsky.com",
+      "tel": "34232356",
+      "skype": "jkoval"
+    },
+    "destinations": [
+      {"target": "Gdańsk"},
+      {"target": "Spain", "date": "2017-08"}
+    ],
+    "needsHelp": [
+    ],
+    "canOffer": [
+      "audioVisualGuidance"
+    ],
+    "description": {"Polish": "Cześć, jestem Jason Kovalsky, chętnie pojadę do Hiszpanii, lubię zwiedzać starówki miast."
+    }
+  },
+
+
+
+  {
+
+  }
+
+
+
+
+]
