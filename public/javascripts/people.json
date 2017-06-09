@@ -1,12 +1,15 @@
 [
   {
     "id": 1,
+    "rating": 4
     "name": "Jason",
     "surname": "Kovalsky",
     "username": "jkovalsky",
+    "gender": "male",
+    "birthYear": null,
     "photo": true,
     "baseLocation": "Gdańsk",
-    "languages": ["Polish", "Spanish"],
+    "languages": ["Polish", "Spanish", "sgPolish"],
     "contact": {
       "mail": "jason@kovalsky.com",
       "tel": "34232356",
@@ -19,18 +22,88 @@
     "needsHelp": [
     ],
     "canOffer": [
-      "audioVisualGuidance"
+      "audioGuidance"
+      "visualGuidance"
+    ]
+    "interests": [
+      "sightseeing",
+      "photography"
     ],
     "description": {"Polish": "Cześć, jestem Jason Kovalsky, chętnie pojadę do Hiszpanii, lubię zwiedzać starówki miast."
     }
   },
-
-
-
+ 
   {
-
-  }
-
+    "id": 2,
+    "rating": 4.5
+    "name": "Katherine",
+    "surname": "Sport",
+    "username": "katsport",
+    "gender": "female",
+    "birthYear": 1989,
+    "photo": false,
+    "baseLocation": "Budapest"
+    "languages": ["English", "Hungarian"],
+    "contact": {
+      "mail": "katsport@hungary.com",
+      "tel": "128319149",
+      "skype": "katsport89" }
+    "destinations": [
+      {"target": "Budapest"},
+      {"target": "Paris", "date":}
+    ],
+    "needsHelp": [
+    ],
+    "canOffer": [
+       "audioGuidance",
+       "visualGuidance",
+       "transport",
+       "generalAssistance"
+    ]
+    "interests": [
+      "zumba",
+      "sport"
+    ],
+    "description": {"English": "Hi! My name's Katherine. I'd love to help someone see Paris. Can travel any time, but we need to agree on some time at least a month beforehand."
+    }
+  },
+      
+  {
+    "id": 3,
+    "rating": 5
+    "name": "Mark",
+    "surname": "Twain",
+    "username": "marktwain",
+    "gender": "male",
+    "birthYear": 1940,
+    "photo": true,
+    "baseLocation": "London",
+    "languages": ["English", "French"],
+    "contact": {
+      "mail": "marktwain@bestliterature.com",
+      "tel": "3234232356",
+      "skype": "huckleberryfinn"
+    },
+    "destinations": [
+      {"target": "London"},
+      {"target": "Spain", "date": "2017"},
+      {"target": "Amsterdam", "date": "2018"}
+    ],
+    "needsHelp": [
+    ],
+    "canOffer": [
+      "audioGuidance",
+      "visualGuidance",
+      "transport",
+      "generalAssistance"
+    ]
+    "interests": [
+      "literature",
+      "belly dancing"
+    ],
+    "description": {"English": "Hi! If anyone needs help with moving around London, I can help. I would also like to go to Spain (anywhere in Spain) in 2017 and Amsterdam in 2018."
+    }
+  },
 
 
 
