@@ -1,5 +1,9 @@
 body {
-  background-color: #4990E2;
+  background: url('/static/background_image.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
     padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -32,4 +36,14 @@ a {
 
 footer {
     text-align: center;
+}
+
+
+.tooltip-inner {
+    background: none;
+
+}
+
+img.signTooltip {
+    width: 30px; height: 30px;
 }

@@ -5,10 +5,18 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main_filter.css') }}">
 {% endblock %}
 {% block content %}
-<div class="container", style="background: {{ url_for('static', filename='background_image.jpg') }}">
+<div class="container">
     <div class="row">
         <div class="col-xs-12">
-            <h1>Where would you like to travel?</h1>
+            <h1>Where would you like to travel?
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Pictograms-nps-accessibility-sign_language_interpretation-2.svg/256px-Pictograms-nps-accessibility-sign_language_interpretation-2.svg.png"
+                     data-toggle="tooltip"
+                     data-placement="right"
+                     data-html="true"
+                     class="signTooltip"
+                     title="<div><video preload='auto'
+                     autoplay src='{{ url_for('static', filename='translate.ogv') }}'></video></div>"/>
+            </h1>
         </div>
     </div>
     <form onsubmit="return false;">
