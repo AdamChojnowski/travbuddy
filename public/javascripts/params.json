@@ -1,0 +1,32 @@
+{
+  "languagesList": [
+    "Polish",
+    "sgPolish",
+    "Spanish",
+    "English",
+    "sgEnglish"
+  ],
+  "gender": [
+    "male",
+    "female",
+    "other"
+  ],
+  "destinations": {
+    "Poland": ["Gdańsk", "Kraków", "Wrocław"],
+    "Spain": ["Barcelona", "Sevilla", "Malaga"]
+  },
+  "needs": [
+    "generalAssistance",
+    "audioGuidance",
+    "visualGuidance",
+    "transport",
+    "communicating"
+  ],
+  "interests": [
+    "sightseeing",
+    "photography",
+    "sport",
+    "zumba"
+  ],
+  "age": {"26": "18-26", "40": "26-40", "100": "40+"}
+}
