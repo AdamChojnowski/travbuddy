@@ -7,7 +7,7 @@ def main_page():
 
 @app.route("/results")
 def results_page():
-    return render_template('results_filter.html')
+    return render_template('results_filter.html', people=['jan', 'siemak'])
 
 @app.route("/person/<id>")
 def person_page(id):
