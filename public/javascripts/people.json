@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "rating": 4
+    "rating": 4,
     "name": "Jason",
     "surname": "Kovalsky",
     "username": "jkovalsky",
@@ -22,9 +22,9 @@
     "needsHelp": [
     ],
     "canOffer": [
-      "audioGuidance"
+      "audioGuidance",
       "visualGuidance"
-    ]
+    ],
     "interests": [
       "sightseeing",
       "photography"
@@ -35,22 +35,22 @@
  
   {
     "id": 2,
-    "rating": 4.5
+    "rating": 4.5,
     "name": "Katherine",
     "surname": "Sport",
     "username": "katsport",
     "gender": "female",
     "birthYear": 1989,
     "photo": false,
-    "baseLocation": "Budapest"
+    "baseLocation": "Budapest",
     "languages": ["English", "Hungarian"],
     "contact": {
       "mail": "katsport@hungary.com",
       "tel": "128319149",
-      "skype": "katsport89" }
+      "skype": "katsport89" },
     "destinations": [
       {"target": "Budapest"},
-      {"target": "Paris", "date":}
+      {"target": "Paris"}
     ],
     "needsHelp": [
     ],
@@ -59,7 +59,7 @@
        "visualGuidance",
        "transport",
        "generalAssistance"
-    ]
+    ],
     "interests": [
       "zumba",
       "sport"
@@ -70,7 +70,7 @@
       
   {
     "id": 3,
-    "rating": 5
+    "rating": 5,
     "name": "Mark",
     "surname": "Twain",
     "username": "marktwain",
@@ -96,14 +96,14 @@
       "visualGuidance",
       "transport",
       "generalAssistance"
-    ]
+    ],
     "interests": [
       "literature",
       "belly dancing"
     ],
     "description": {"English": "Hi! If anyone needs help with moving around London, I can help. I would also like to go to Spain (anywhere in Spain) in 2017 and Amsterdam in 2018."
     }
-  },
+  }
 
 
 
