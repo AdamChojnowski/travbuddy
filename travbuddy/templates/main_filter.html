@@ -73,7 +73,13 @@
                                         title="<div><video preload='auto'
                                         autoplay src='{{ url_for('static', filename='translate.ogv') }}'></video></div>"/>
                         </label>
-                        <input type="search" class="form-control" id="need-help">
+                        <select multiple class="form-control" id="need-help">
+                               <option value="volvo">Visual Guidance</option>
+                               <option value="volvo">Audio Guidance</option>
+                               <option value="volvo">Movement</option>
+                               <option value="volvo">Communication</option>
+                               <option value="volvo">General Assistance</option>
+                        </select>
                     </div>
                 </div>
             </div>

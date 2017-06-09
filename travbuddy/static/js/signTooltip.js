@@ -6,4 +6,5 @@ $(function () {
     $('.highContrastToggler').click(function(){
         $('body').toggleClass('highContrast');
     });
+    $('select').select2();
 });

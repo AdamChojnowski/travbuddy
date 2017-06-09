@@ -3,6 +3,11 @@ body {
   font-size: 20px;
   font-weight: normal; }
 
+  input, select, .select2, .select2-container {
+  color: #000000;
+  font-size: 20px;
+  }
+
 body.highContrast {
 background: yellow;
 color: #000000;
