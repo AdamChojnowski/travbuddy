@@ -1,0 +1,24 @@
+#main-filter {
+  background-color: #4990E2; }
+  #main-filter h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px; }
+  #main-filter .form-control-feedback {
+    display: none; }
+  #main-filter .has-feedback.has-success .feedback-success, #main-filter .has-feedback.has-error .feedback-error {
+    display: block; }
+  #main-filter .form-group > label + .help-block {
+    margin-top: -5px;
+    margin-bottom: 5px; }
+  #main-filter .btn {
+    width: 100%;
+    height: 60px;
+    background-color: #F6A623;
+    border-radius: 2px;
+    margin-top: 30px; }
+  #main-filter .form-control {
+    border-radius: 2px;
+    height: 50px; }
+
+/*# sourceMappingURL=mainFilter.css.map */
