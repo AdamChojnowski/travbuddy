@@ -14,8 +14,8 @@ def person_page(id):
     return render_template('person.html')
 
 @app.route("/person/messages/<id>")
-def person_page(id):
+def person_message(id):
     return render_template('messages.html')
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', port=5000)
