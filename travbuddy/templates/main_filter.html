@@ -26,7 +26,9 @@
                     <div class="form-group">
                         <label for="travel-departure">From</label>
                         <div class="input-group">
-                            <span class="input-group-addon">@</span>
+                            <span class="input-group-addon">
+                                <img class="icon" src="{{ url_for('static', filename='icons/ic_flight_takeoff_black_24dp_2x.png') }}"/>
+                            </span>
                             <input type="search" class="form-control" id="travel-departure">
                         </div>
                     </div>
@@ -35,7 +37,9 @@
                     <div class="form-group">
                         <label for="travel-destination">To</label>
                         <div class="input-group">
-                            <span class="input-group-addon">@</span>
+                            <span class="input-group-addon">
+                                <img class="icon" src="{{ url_for('static', filename='icons/ic_flight_land_black_24dp_2x.png') }}"/>
+                            </span>
                             <input type="search" class="form-control" id="travel-destination">
                         </div>
                     </div>
@@ -46,7 +50,9 @@
                     <div class="form-group">
                         <label for="departure-date">Departure date</label>
                         <div class="input-group">
-                            <span class="input-group-addon">@</span>
+                            <span class="input-group-addon">
+                                <img class="icon" src="{{ url_for('static', filename='icons/ic_date_range_black_24dp_2x.png') }}"/>
+                            </span>
                             <input type="date" class="form-control" id="departure-date">
                         </div>
                     </div>
@@ -55,7 +61,9 @@
                     <div class="form-group">
                         <label for="return-date">Return date</label>
                         <div class="input-group">
-                            <span class="input-group-addon">@</span>
+                            <span class="input-group-addon">
+                                <img class="icon" src="{{ url_for('static', filename='icons/ic_date_range_black_24dp_2x.png') }}"/>
+                            </span>
                             <input type="date" class="form-control" id="return-date">
                         </div>
                     </div>
@@ -73,13 +81,18 @@
                                         title="<div><video preload='auto'
                                         autoplay src='{{ url_for('static', filename='translate.ogv') }}'></video></div>"/>
                         </label>
-                        <select multiple class="form-control" id="need-help">
-                               <option value="volvo">Visual Guidance</option>
-                               <option value="volvo">Audio Guidance</option>
-                               <option value="volvo">Movement</option>
-                               <option value="volvo">Communication</option>
-                               <option value="volvo">General Assistance</option>
-                        </select>
+                        <div class="input-group">
+                            <span class="input-group-addon">
+                                <img class="icon" src="{{ url_for('static', filename='icons/ic_accessible_black_24dp_2x.png') }}"/>
+                            </span>
+                            <select multiple class="form-control" id="need-help">
+                                   <option value="volvo">Visual Guidance</option>
+                                   <option value="volvo">Audio Guidance</option>
+                                   <option value="volvo">Movement</option>
+                                   <option value="volvo">Communication</option>
+                                   <option value="volvo">General Assistance</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
