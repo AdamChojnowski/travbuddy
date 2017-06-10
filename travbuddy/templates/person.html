@@ -1,7 +1,15 @@
 {% extends "base.html" %}
-{% block title %}{{ person.name }} {{ person.surname }}{% endblock %}
+{% block title %}Mark Twain{% endblock %}
 {% block content %}
 <div class="container">
-
+    <img style="background: white; padding: 15px;" src="{{ url_for('static', filename='mockups/Person_view_general.png') }}"/>
+    <br>    <br>
+    <img style="background: white; padding: 15px;" src="{{ url_for('static', filename='mockups/Person_view_about.png') }}"/>
+        <br>    <br>
+    <img style="background: white; padding: 15px;" src="{{ url_for('static', filename='mockups/Person_view_interests.png') }}"/>
+        <br>    <br>
+    <img style="background: white; padding: 15px;" src="{{ url_for('static', filename='mockups/Person_view_recommend.png') }}"/>
+        <br>    <br>
+    <a href="/person/messages/1"><img style="background: white; padding: 15px;" src="{{ url_for('static', filename='mockups/Person_view_message.png') }}"/></a>
 </div>
 {% endblock %}

@@ -7,11 +7,15 @@ def main_page():
 
 @app.route("/results")
 def results_page():
-    return render_template('results_filter.html', people=['jan', 'siemak'])
+    return render_template('results_filter.html', people=['Mark Twain', 'Mark Twain', 'Mark Twain'])
 
 @app.route("/person/<id>")
 def person_page(id):
     return render_template('person.html')
+
+@app.route("/person/messages/<id>")
+def person_page(id):
+    return render_template('messages.html')
 
 if __name__ == "__main__":
     app.run()

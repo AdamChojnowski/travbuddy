@@ -1,13 +1,22 @@
 {% extends "base.html" %}
 {% block title %}Find a TravelBuddy!{% endblock %}
 {% block content %}
-<div class="container">
-    <ul>
-    {% for person in people %}
-      <li>
-        person
-      </li>
-    {% endfor %}
-    </ul>
+<div class="container" style="padding: 10px;">
+    <div class="row">
+        <div class="col-xs-12">
+            <img style="background: white; padding: 15px;" src="{{ url_for('static', filename='mockups/basic_inf.png') }}"/>
+        </div>
+        <div class="col-xs-12">
+            <br>
+            <br>
+            <br>
+        </div>
+        <div class="col-xs-4">
+            <img style="background: white; padding: 15px;" src="{{ url_for('static', filename='mockups/filters.png') }}"/>
+        </div>
+        <div class="col-xs-8">
+            <a href="/person/1"><img style="background: white; padding: 15px;" src="{{ url_for('static', filename='mockups/results.png') }}"/></a>
+        </div>
+    </div>
 </div>
 {% endblock %}
